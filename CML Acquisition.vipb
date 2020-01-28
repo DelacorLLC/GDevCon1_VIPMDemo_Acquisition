@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-28 16:24:44" Modified_Date="2019-02-28 18:20:22" Creator="Fabiola" Comments="" ID="5ad34d040e06986baa3177f9687e0992">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-28 16:24:44" Modified_Date="2020-01-27 20:34:04" Creator="Fabiola" Comments="" ID="f34ff2849a3322fdbacb2a44bcc7cb46">
   <Library_General_Settings>
     <Package_File_Name>Delacor_lib_CML_Acquisition</Package_File_Name>
-    <Library_Version>1.0.0.3</Library_Version>
+    <Library_Version>1.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\Packages</Library_Output_Folder>
@@ -17,12 +17,12 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>delacor_lib_cml_logger &gt;= 1.0.0.1</External_Dependencies>
-      <External_Dependencies>delacor_lib_cml_settings_editor &gt;= 1.0.0.2</External_Dependencies>
+      <External_Dependencies>delacor_lib_cml_logger &gt;= 1.0.0.3</External_Dependencies>
+      <External_Dependencies>delacor_lib_cml_settings_editor &gt;= 1.0.0.3</External_Dependencies>
       <External_Dependencies>delacor_lib_cml_shared &gt;= 1.0.0.2</External_Dependencies>
       <External_Dependencies>delacor_lib_qmh &gt;= 4.2.0.3</External_Dependencies>
-      <Direct_Dependencies>delacor_lib_cml_logger-1.0.0.1</Direct_Dependencies>
-      <Direct_Dependencies>delacor_lib_cml_settings_editor-1.0.0.2</Direct_Dependencies>
+      <Direct_Dependencies>delacor_lib_cml_logger-1.0.0.3</Direct_Dependencies>
+      <Direct_Dependencies>delacor_lib_cml_settings_editor-1.0.0.3</Direct_Dependencies>
       <Direct_Dependencies>delacor_lib_cml_shared-1.0.0.2</Direct_Dependencies>
       <Direct_Dependencies>delacor_lib_qmh-4.2.0.3</Direct_Dependencies>
     </Package_Dependencies>
@@ -41,7 +41,8 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>Moved the location in the palettes to Delacor-GDevCon1-Demo</Release_Notes>
+      <Release_Notes>Validated module to match DQMH 4.2, main change was adding the new broadcast icon.
+Updated CML Acquisition.vipc to  point to the latest version of the Settings Editor and the Logger packages.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -390,7 +391,7 @@
         <Path>Calibrate DAQ.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2C68BD2E45B8AB3BF494533F3E5AB8FC</GUID>
+      <GUID>211EEBA14AA888A72FEE2583197C7470</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -719,7 +720,7 @@
         <Path>Wakeup Helper Loop Argument--cluster.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>25FCA7F9812B25149DD14002E5CC1571</GUID>
+      <GUID>B0E2564D354C34B4E2C21BC812CA413B</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
